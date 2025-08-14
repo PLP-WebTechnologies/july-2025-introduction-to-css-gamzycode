@@ -1,0 +1,84 @@
+/* Styling for the main page body */
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+    color: #333;
+    margin: 15px;
+}
+
+/* Header style with a background */
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navigation links styling */
+#header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* This is the main content area */
+.content-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for each card item */
+.card_item {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* a bunch of padding for space */
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin for space around it */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    float: left; /* lining them up */
+}
+
+/* styling for buttons */
+button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* footer style */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
